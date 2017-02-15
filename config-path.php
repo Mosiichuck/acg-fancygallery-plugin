@@ -14,3 +14,6 @@ if ( ! function_exists( 'get_plugins' ) ) {
 $TPOPlUGINs = get_plugin_data(ACGFANCYGALLERY_PlUGIN_DIR.'/'.basename(ACGFANCYGALLERY_PlUGIN_DIR).'.php', false, false);
 define("ACGFANCYGALLERY_PlUGIN_VERSION", $TPOPlUGINs['Version']);
 define("ACGFANCYGALLERY_PlUGIN_NAME", $TPOPlUGINs['Name']);
+
+// путь к файлу перевода
+define("ACGFANCYGALLERY_PlUGIN_DIR_LOCALIZATION", plugin_basename(ACGFANCYGALLERY_PlUGIN_DIR.'/languages/'));

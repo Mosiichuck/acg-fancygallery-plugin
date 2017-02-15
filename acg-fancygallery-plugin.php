@@ -6,6 +6,8 @@ Description: ACG_FancyGallery Plugin.
 Version: 1.0
 Author:  MosiichukDmytro
 Author URI: https://ua.linkedin.com/in/дмитрий-мосейчук-81275911a
+Text Domain: acg-fancygallery-plugin
+Domain Path: /languages/
 License: A "Slug" license name e.g. GPL2
     Copyright 2017  Mosiichuk Dmytro  (email: MoseychuckD.A@yandex.ua)
 
